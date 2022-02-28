@@ -28,8 +28,7 @@ li {
   flex-direction: row;
   align-items: center;
 }
-#addToDo,
-#buttonRemove,
+#addToDo,,
 li {
   height: 30px;
   width: 30px;
