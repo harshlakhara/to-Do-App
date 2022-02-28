@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleToDo.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            To Do App
+        </legend>
+        <div id="addTaskCont">
+            <label for="addTask">Task: </label>
+            <input type="text" id="addTask" placeholder="Add new task">
+            <button id="addToDo"></button>
+        </div>
+    </fieldset>
+    <fieldset id="tasks">
+        <legend>Tasks</legend>
+        <div id="taskList">
+            <h2 id="noTaskHere">No Task Added Yet</h2>
+        </div>
+        <button disabled="disabled" id="deleteAll"></button>
+    </fieldset>
+    <script src="todolistjs.js"></script>
+</body>
+
+</html>
