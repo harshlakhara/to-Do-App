@@ -7,6 +7,8 @@ fieldset {
   background-color: antiquewhite;
   padding: 20px;
   margin: 10px;
+  width: 50%;
+  margin: 50px auto 50px auto;
 }
 input {
   outline: none;
@@ -28,7 +30,7 @@ li {
   flex-direction: row;
   align-items: center;
 }
-#addToDo,,
+#addToDo,
 li {
   height: 30px;
   width: 30px;
@@ -38,9 +40,6 @@ li {
   background-size: 30px 30px;
   position: relative;
   padding: auto;
-}
-#buttonRemove {
-  background-image: url("./remove.png");
 }
 #button:hover {
   color: white;

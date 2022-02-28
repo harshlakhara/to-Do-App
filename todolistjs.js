@@ -15,7 +15,7 @@ addToDoButton.addEventListener(`click`, () => {
         inputField.value = ``;
         paragraph.addEventListener(`click`, () => {
             paragraph.style.textDecoration = `line-through`;
-            paragraph.style.color = `#ccc`;
+            paragraph.style.color = `#ff0000`;
         });
         paragraph.addEventListener(`dblclick`, () => {
             taskList.removeChild(paragraph);
